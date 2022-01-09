@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+ul li{
+    list-style-type: none;
+}
+.Row{
+    width: 60%;
+    margin: auto;
+}
+
+/* header section */
+header{
+    padding: 40px 60px;
+    height: 1000px;
+    width: 100%;
+    background: ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.logo h1{
+    font-weight: 600;
+    color: #fff;
+}
+.logo span{
+    color: #fa7c30;
+}
+
+.navigation li{
+    float: left;
+    margin-top: 15px;
+}
+.navigation li a:link,
+.navigation li a:visited{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 8px 13px;
+    margin-left: 2px;
+    border-radius: 5px;
+    background:  #643a7900;
+    transition: .5s;
+}
+.left-nav{
+    margin-left: 20px;
+}
+.navigation li a:hover,
+.navigation li a:focus{
+    background: #00000060;
+}
+.right-nav{
+    margin-left: 500px;
+}
+.plan{
+    border: 1px solid #fa7c30;
+}
+.hero-text-box{
+    width: 60%;
+    position: absolute;
+    top:30%;
+    left: 10%;
+}
+.h{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+}
+.paragraph{
+    color: #ffffff90;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.herobtn:link,
+.herobtn:visited,
+.herobtn{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #fa7c30;
+    position: relative;
+    top:50px;
+}
+/* order section */
+.order-form{
+    height: 500px;;
+    width: 1100px;
+    background: #ffffff;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 0px 3px 10px 5px #000;
+}
+.order-form img{
+    height: 500px;
+    width: 100%;
+}
+.order-form form{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:50px;
+    padding: 0px 30px;
+
+}
+.order-form h3{
+    font-size: 26px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+.order-form h2{
+    font-size: 36px;
+    margin: 10px 0px 60px;
+    font-weight: 700;
+}
+.order-form form input{
+    border: none;
+    background: #fff;
+    color: #fff;
+    border-bottom: 5px solid #000;
+    padding: 0px 5px;
+}
+.order-form form select{
+    border: none;
+    background: #ffffff;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding: 0px 5px;
+}
+.order-form .herobtn{
+    top:20px;
+    left: 260px;
+}
+
+
+
+/* explain section */
+.explain-section{
+    max-height: 1300px;
+    padding-top: 300px;
+}
+.first{
+    width: 450px;
+    margin: auto;
+    margin-top: 150px;
+}
+.first h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+}
+.first h2 span{
+    color:#fa7c30;
+}
+.first h3{
+    font-size: 16px;
+    font-family: justify;
+    margin-top: 20px;
+    color: #00000070;
+}
+.second img{
+    height:600px;
+}
+
+/* fitness section */
+.fitness-section{
+    background: #00000010;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0px 10%;
+    padding-bottom: 40px;
+}
+.padding{
+    padding:0px 120px;
+}
+.fitness-section h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 80px;
+    padding-top: 80px;
+    font-weight: 700;
+
+}
+.fitness-section h2 span{
+    color: #fa7c30;
+}
+.fitness-section .para{
+    font-size: 18px;
+    color: #00000060;
+
+}
+.fitness-section .herobtn{
+    top: 30px;
+}
+.fitness-section .herobtn:nth-child(3){
+    top: px;
+}
+.fitness-section h5{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+/* personal trainer section */
+.personal-trainer{
+    height: 500px;
+    width: 100%;
+    background:linear-gradient(#00000050,#00000050) ,url('../assets/4.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+}
+.work{
+    height: 300px;
+    width: 60%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.work h3{
+    font-size: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.work h1{
+    font-size: 70px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.work .herobtn{
+ top: 10px;
+
+}

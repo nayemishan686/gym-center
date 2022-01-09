@@ -1,0 +1,152 @@
+@media only screen and (max-width:1024px){
+    .welcome-group .row{
+        width: 90%;
+    }
+    .main-nav{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+}
+@media only screen and (max-width:980px){
+    header{
+        min-height: 700px;
+    }
+    .left-nav{
+        float: left;
+        margin-top: 35px;
+        margin-left: 5px;
+    }
+    .left-nav li a:link,
+    .right-nav li a:link,
+    .left-nav li a:visited,
+    .right-nav li a:visited{
+        font-size: 16px;
+        padding: 6px 8px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .hero-text-box{
+        top: 30%;
+    }
+}
+@media only screen and (max-width:800px){
+    .left-nav li a:link,
+    .right-nav li a:link,
+    .left-nav li a:visited,
+    .right-nav li a:visited{
+        font-size: 14px;
+        padding: 6px 6px;
+    }
+    .first{
+        margin-top: 350px;
+        margin-bottom: 100px;
+    }
+    .fitness-section img{
+        margin-top: 250px;
+    }
+    .welcome-group h3{
+        font-size: 20px;
+    }
+    .ptariner-section{
+        height: 400px;
+    }
+    .ptariner-section h2{
+        margin-top: 150px;
+    }
+    .exrpert-section .row{
+        width: 90%;
+    }
+    .cardlist .expert{
+        height: 250px;
+    }
+    .connected .row ul{
+        left: 30%;
+    }
+    .footer .row{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:480px){
+    header{
+        min-height: 500px;
+    }
+    .left-nav li a:link,
+    .right-nav li a:link,
+    .left-nav li a:visited,
+    .right-nav li a:visited{
+        font-size: 12px;
+        padding: 6px 6px;
+    }
+    .left-nav{
+        display: none;
+    }
+    .right-nav{
+        float: left;
+    }
+    h1{
+        font-size: 24px;
+    }
+    p{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .hero-text-box{
+        top:25%;
+    }
+    .first{
+        width: 100%;
+        margin-top: 250px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .first h4 {
+        text-align: justify;
+        width: 100%;
+    }
+    .fitness-section img {
+    margin-top: 50px;
+    }
+    .welcome-group .card{
+        width: 100%;
+    }
+    .welcome-group h3{
+        font-size: 26px;
+    }
+    .welcome-group p{
+        font-size: 14px;
+    }
+    .ptariner-section{
+        height: 250px;
+    }
+    .ptariner-section h2{
+        margin-top: 60px;
+        font-size: 24px;
+    }
+    .ptariner-section h1{
+        font-size: 18px;
+    }
+    .ptariner-section .btn{
+        font-size: 16px;
+        padding: 7px 10px;
+    }
+    .cardlist .expert
+    {
+    height: 350px;
+    }
+    .free-section .span_1_of_2{
+        width: 100%;
+    }
+    .connected h2
+    {
+    font-size: 22px;
+    margin-top: 40px;
+    }
+    .connected .row ul{
+        left: 8%;
+        top: 45%;
+    }
+}

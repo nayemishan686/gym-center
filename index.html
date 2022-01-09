@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fitness GYM center</title>
+    <link rel="shortcut icon" href="resources/assets/index.png">
+    <!-- google link -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&display=swap" rel="stylesheet">
+            <!-- vendors css -->
+        <link rel="stylesheet" href="vendors/css/grid.css">
+        <link rel="stylesheet" href="vendors/css/normalize.css">
+        <!-- resources css -->
+        <link rel="stylesheet" href="resources/css/style2.css">
+        <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body>
+<!-- start header section -->
+    <header id="home">
+        <nav>
+            <div class="row">
+                <div class="logo">
+                    <h3>fitne<span>ss</span></h3>
+                </div>
+                <div class="main-nav">
+                    <ul class="left-nav ">
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">about us</a></li>
+                        <li><a href="#trainer">trainer</a></li>
+                        <li><a href="#blog">blog</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                    <ul class="right-nav">
+                        <li><a href="#">login</a></li>
+                        <li><a href="#">sign up</a></li>
+                        <li><a href="#plan" class="item">chose plan</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776;</span>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+                        <div class="overlay-content">
+                           <a href="#home" onclick="closeNav()">home</a>
+                           <a href="#about" onclick="closeNav()">about us</a>
+                           <a href="#trainer" onclick="closeNav()">trainer</a>
+                           <a href="#blog" onclick="closeNav()">blog</a>
+                           <a href="#contact" onclick="closeNav()">contact</a>
+                           <a href="#" onclick="closeNav()">login</a>
+                           <a href="#" onclick="closeNav()">sign up</a>
+                           <a href="#plan" class="item" onclick="closeNav()">chose plan</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </nav>
+            <div class="row">
+                <div class="hero-text-box">
+                    <h1>make your body <span>beautiful</span></h1>
+                    <p>This jym center help you to make a fitt body. </p>
+                    <button class="btn">
+                        Get in touch
+                    </button>
+                </div>
+            </div>
+
+            <!-- start order-section -->
+<!--
+<div class="order-section">
+                <div class="row">
+                    <div class="col span_1_of_3 photo">
+                        <img src="resources/assets/left .jpg" alt="" class="leftside" style="height:100%; width:100%; " >
+                    </div>
+                    <div class="col span_2_of_3">
+                        <h3>Free 7 days</h3>
+                        <h2>online booking</h2>
+                        <form class="" method="post">
+                            <select class="" name="">
+                                <option value=""></option>
+                                <option value="">One</option>
+                                <option value="">Two</option>
+                                <option value="">Three</option>
+                            </select>
+                            <input type="text" name="" id="" placeholder="Date" >
+                            <input type="text" name="" id="" placeholder="Time">
+                            <input type="text" name="" id="" placeholder="Name">
+                            <input type="text" name="" id="" placeholder="Phone">
+                            <input type="email" name="" id="" placeholder="Email">
+                            <div><button type="submit" name="button" class="btn">submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+  -->
+            <!-- end order-section -->
+
+    </header>
+    <!-- end header section -->
+
+    <!-- start fitness section -->
+
+    <section class="fitness-section js--services-section" id="about">
+        <div class="row">
+            <div class="col span_1_of_2">
+                <div class="first">
+                <h2>welcome to <span>fitness<span></h2>
+                <h4>It is the most familiar JYM center in Bangladesh.There has many special Tranier who will train you and make you as a fit man.It was started since 2001.</h3>
+                <button class="btn">
+                    get in touch
+                </button>
+            </div>
+        </div>
+            <div class="col span_1_of_2">
+                <img src="resources/assets/triangle.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- start fitness section -->
+
+    <!-- start welcome group -->
+
+    <section class="welcome-group" id="plan">
+        <div class="row">
+            <h2>welcome to <span>fitness</span></h2>
+            <p>See what we will teach you. It can help you to earn some idea about our it center</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_3">
+                <div class="card">
+                    <img src="resources/assets/1.jpg" alt="" class="demo">
+                    <div class="details">
+                        <div class="info">
+                            <h3>Basic Crossfit</h3>
+                            <p>Our staff includes amazing professionals that have an eye for crossfit.</p>
+                        </div>
+                        <button type="submit" class="btn" name="button">get in touch</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="card">
+                    <img src="resources/assets/2.jpg" alt="" class="demo">
+                    <div class="details">
+                        <div class="info">
+                            <h3>Fitness Studio</h3>
+                            <p>Work out in fitness groups or with a personal certified trainer in our gym center.</p>
+                        </div>
+                        <button type="submit" class="btn" name="button">get in touch</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="card">
+                    <img src="resources/assets/3.jpg" alt="" class="demo">
+                    <div class="details">
+                        <div class="info">
+                            <h3>Yoga Classes</h3>
+                            <p>What do you think about Yoga? If you have a passion for this activity.We have got a special progamme.</p>
+                        </div>
+                        <button type="submit" class="btn" name="button">get in touch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start welcome group -->
+
+    <!-- Start Personal Trainer Section -->
+
+    <section class="ptariner-section" id="trainer">
+        <div class="row">
+            <h2>we trained with</h2>
+            <h1>personal trainer</h1>
+            <button type="submit" class="btn" name="button">get in touch</button>
+        </div>
+    </section>
+
+    <!-- End Personal Trainer Section -->
+    <!-- start expert trainer section -->
+
+    <section class="exrpert-section">
+        <div class="row heading">
+            <h2>expert <span>trainer</span></h2>
+            <p>Meet with our expert trainer. They are famous bodybuileder in our country.They all help you to get a fit body.</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_3">
+                <div class="cardlist">
+                    <img src="resources/assets/5.jpg" alt="" class="expert">
+                    <div class="details-2">
+                    <h3>Sarra Miller</h3>
+                    <h5>spinning trainer</h5>
+                    <p>Our staff includes amazing professionals that have an eye for crossfit.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="cardlist">
+                    <img src="resources/assets/6.jpg" alt="" class="expert">
+                    <div class="details-2">
+                    <h3>John Doe</h3>
+                    <h5>bootcamp trainer</h5>
+                    <p>Our staff includes amazing professionals that have an eye for crossfit.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="cardlist">
+                    <img src="resources/assets/7.jpg" alt="" class="expert">
+                    <div class="details-2">
+                    <h3>Tony Cruse</h3>
+                    <h5>spinning trainer</h5>
+                    <p>Our staff includes amazing professionals that have an eye for crossfit.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end expert trainer section -->
+    <!-- star free 7 days -->
+
+    <section class="free-section" id="blog">
+        <div class="row">
+            <div class="col span_1_of_2">
+                <h4>tru for free</h4>
+                <h2>free 5 days pass</h2>
+                <button type="submit" class="btn" name="button">get in touch</button>
+            </div>
+            <div class="col span_1_of_2">
+                <h4>call us and tru</h4>
+                <h2>957 547 4545</h2>
+                <button type="submit" class="btn" name="button">get in touch</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- end free 7 days -->
+
+<!-- start connected section -->
+
+    <div class="connected">
+        <div class="row">
+            <h2>Let’s Stay Connected</h2>
+            <ul>
+                <li><a href="https://web.facebook.com/asfak.ishan.7" class="icon"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://myaccount.google.com/profile" class="icon"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="" class="icon"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/" class="icon"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+<!-- start connected section -->
+
+
+<!-- start footer section -->
+
+    <section class="footer" id="contact">
+        <div class="row">
+            <div class="col span_1_of_3">
+                <ul>
+                    <h3>Be stronger than your excuses!</h3>
+                    <li>
+                        <label for=""><h4>address</h4></label>
+                        <address class="">
+                            4290 Miller Road
+                            <br>
+                            Flint, MI 48507
+                        </address>
+                        <a href="#">Get Direction</a>
+                    </li>
+                    <li>
+                        <label for=""><h4>phone</h4></label>
+                        <p>(810) 285-9765</p>
+                    </li>
+                    <li>
+                        <label for=""><h4>email</h4></label>
+                        <p>thegymflint@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col span_1_of_3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5837.758232981617!2d-83.761898!3d42.98082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5f1f46dfa47a1f58!2sThe%20UPS%20Store!5e0!3m2!1sen!2sus!4v1587057101552!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="col span_1_of_3">
+                <ul>
+                    <h3>Hours of Operation</h3>
+                    <li>
+                        <label for=""><h4>Monday through Friday</h4></label>
+                        <p>6:00 AM to 10:00 PM</p>
+                    </li>
+                    <li>
+                        <label for=""><h4>Saturday</h4></label>
+                        <p>7:00 AM to 7:00 PM</p>
+                    </li>
+                    <li>
+                        <label for=""><h4>Sunday</h4></label>
+                        <p>8:00 AM to 4:00 PM</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<!-- end footer section -->
+<!-- last section -->
+
+    <div class="last-section">
+        <div class="row">
+            <p>&copy; 2020 FITTNESS GYM center.com All right Reserved.
+            <br>
+            Developed By <a href="https://web.facebook.com/asfak.ishan.7"> Nayem Ishan</a>
+         </p>
+        </div>
+    </div>
+
+<!-- last section -->
+
+
+
+<!-- js file -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://kit.fontawesome.com/ff80066c0c.js" crossorigin="anonymous"></script>
+<script src="vendors/js/html5shiv.min.js"></script>
+<script src="vendors/js/respond.min.js"></script>
+<script src="vendors/js/selectivizr-min.js"></script>
+<script type="text/javascript" src="vendors\js\jquery.waypoints.min.js"></script>
+<script src="resources/js/main.js">
+
+</script>
+
+</section>
+</body>
+</html>
